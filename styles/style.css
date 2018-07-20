@@ -6,7 +6,7 @@ html,body{
     background: transparent;
     font-size: 13px;
     display: block;
-    font-family: arial,sans-serif;
+    font-family: arial, sans-serif;
 }
 
 body {
@@ -48,7 +48,7 @@ div.sbox{
 div.sbox:hover {
    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
 }
-   
+
 input[type="submit"] {
     background-color: #f2f2f2;
     color: #757575;
@@ -62,7 +62,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     border: 1px solid #c6c6c6;
-} 
+}
 
 input[type="submit"]:focus {
     border: 1px solid #4d90fe;
@@ -73,9 +73,8 @@ ul {
     margin: 0;
     padding-top: 10px;
     padding-bottom: 10px;
-    overflow: hidden; /* Enable scrolling if the sidenav has too much content */
-    /*position: fixed;  Make it stick, even on scroll */
-   	top: 0; 	
+    overflow: hidden;
+   	top: 0;
    }
 
 nav li {
@@ -97,7 +96,7 @@ li a.signinbox {
     border: 1px solid #4285f4;
     background: #4285f4;
     color: white;
-    border-radius: 3px; 
+    border-radius: 3px;
 }
 
 li a:hover:not(.signinbox) {
@@ -121,17 +120,13 @@ p {
     line-height: 35px;
     margin-top: 0;
     padding-left: 27px;
-    text-align: left; 
-    /*font-family: sans-serif;*/
+    text-align: left;
 }
 
 footer ul {
     border-top: 1px solid #e4e4e4;
     padding-left: 0px;
     margin-right: 10px;
-    /*-webkit-column-count: 4;
-    -moz-column-count: 4;
-    column-count: 4;*/
 }
 
 footer li {
